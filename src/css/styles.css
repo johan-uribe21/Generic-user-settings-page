@@ -1,0 +1,107 @@
+/* Feel free to update this file as necessary. */
+
+.beam-brush-blue {
+  background-color: #00c9f0;
+  
+}
+
+.beam-brush-pink {
+  background-color: #f31884;
+}
+
+.beam-brush-chartreuse {
+  background-color: #daff00;
+}
+
+.box{
+  width: 15px;
+  height: 15px;
+}
+
+.beam-font-family {
+  /*
+    If you'd like to use Roboto, visit:
+    https://fonts.google.com/specimen/Roboto?selection.family=Roboto
+  */
+  font-family: 'Roboto', sans-serif;
+}
+
+.beam-font-color {
+  color: #666666;
+}
+
+.beam-title {
+  font-size: 40px;
+  line-height: 1.1em;
+  font-weight: 100;
+  margin-bottom: 16px;
+}
+
+.beam-label {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 16px;
+  line-height: 1.2em;
+}
+
+.beam-text {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.2em;
+}
+
+  /* css attributes copied from Beam Bental webpage login button */
+.beam-login-button {
+  color: #fff;
+  border: none;
+  box-shadow: 0 5px 7px 0 rgba(0, 137, 163, 0.2);
+  background-clip: padding-box, border-box;
+  background-image: linear-gradient(102deg, #00C9F0, #028cd1);
+  background-origin: unset;
+
+  height: 32px;
+  min-width: 174px;
+  line-height: normal;
+
+  padding: 0px 25px;
+  font-size: 16px;
+  
+  box-sizing: border-box;
+  min-height: 36px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  border-radius: 21px;
+  text-transform: none;
+
+  margin: 0;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+
+  position: relative;
+  align-items: center;
+  user-select: none;
+  vertical-align: middle;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* sign-in button css copied from Beam Dental login page */
+.beam-edit-button {
+  border-radius: 30px;
+  background-clip: padding-box;
+  font-size: 16px;
+  padding: 6px 14px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #ccc;
+  font-weight: 100;
+  line-height: 20px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}

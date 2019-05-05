@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Brush preference card component renders with the props correctly passsed expect to render individual brush card 1`] = `ShallowWrapper {}`;

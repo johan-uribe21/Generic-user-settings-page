@@ -1,0 +1,9 @@
+### Fetching the Member Data
+For this exercise, you'll be displaying the data for a member named "Remy LeBeau". We've gone ahead and searched for his name in the system. You can can read the data through our API layer at [https://member-data.beam.dental/searchResults.json](https://member-data.beam.dental/searchResults.json).
+
+Unfortunately, his data has gotten a little messed up. There are some invalid records that you'll need to sort through to get his current data. The valid member record for Remy:
+- Does not have a `primary_insured_id`. (He's his own primary insured.)
+- Does not have a `terminated_at` date. (He still has insurance active.)
+- Has the most recent `effective_date`. (Older ones might not be attached to the correct data anymore.)
+https://member-data.beam.dental/searchResults.json
+https://member-data.beam.dental/memberPreferences.json
